@@ -1,0 +1,78 @@
+<!-- views/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <p>I'm a passionate web developer.</p>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="images/LM.jpg" alt="Profile Picture" width="150" height="200">
+        <p>Hi, I'm a web developer with skills in frontend and backend development. I love creating interactive websites.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>A responsive portfolio website of forensic linguistics.<br>
+<a href="https://aafll.co.za/">Forensic and Legal Linguists (AAFLL)</a></p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>A responsive website with a multilingual navigation function for African languages.<br>
+<a href="https://alasa.org.za/">The African Language Association of Southern Africa (ALASA)</a></p>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog">
+        <h2>Blog</h2>
+        <article>
+            <h3>My First Blog Post</h3>
+            <p>Welcome to my first blog post! I'm Linda Manashe, a web developer with a passion for creating functional and beautiful websites. <br>
+I decided to start this blog to share my journey, projects, and tips with fellow developers and anyone curious about web development.</p>
+        </article>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div id="status"></div>
+    </section>
+
+    <script src="/js/script.js"></script>
+	<!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Linda Manashe. All rights reserved.</p>
+    </footer>
+</body>
+</html>
